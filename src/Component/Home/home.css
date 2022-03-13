@@ -38,7 +38,7 @@ hr{
 margin : 3px 0
 }
 .nav-brand {
-color:grey;
+color:rgb(66, 66, 66);
 font-size:18px;
 letter-spacing: 5px;
 font-family: 'Open Sans Condensed', sans-serif;
@@ -60,15 +60,16 @@ padding: 5px;
 
 .nav-main ul li a {
 padding: 2px;
-color:rgb(68, 55, 55);
+color:rgb(37, 1, 1);
 font-size: 11px;
 letter-spacing: 3px;
 
 }
 
 .nav-main ul li a:hover {
-border-bottom: 1px solid rgb(230, 227, 227);
-color:rgb(251, 1, 64);
+    border-bottom: 1px solid rgb(230, 227, 227);
+    
+    
 
 }
 

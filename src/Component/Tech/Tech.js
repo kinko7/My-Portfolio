@@ -27,7 +27,7 @@ export default function Tech() {
       <nav className="nav-1">
         <span className="nav-2">JAVASCRIPT - CSS - HTML - NODEJS - REACT - REDUX - EXPRESS - POSTGRES - SEQUELIZE </span>
       </nav>
-      <div className="let">
+      <div className="lets">
         <div classname="riu">
           <div className="cards">
             <div className="butttons">

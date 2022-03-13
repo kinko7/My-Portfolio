@@ -7,12 +7,13 @@
       margin:15px;
       margin-top: 20px;
 
-      }
-      .let  {
+}
+/* background: url("../view/w.jpg") no-repeat center center/cover; */
+      .lets  {
 
       padding: 4.5rem;
-      margin: 0;
-      background: url("../view/w.jpg") no-repeat center center/cover;
+      margin-left: 276px;
+      background-color:white;
       background-blend-mode: multiply;
 
       }  
@@ -22,7 +23,7 @@
       height: auto;
       padding: 2rem;
       border-radius: 1rem;
-      margin-left: 40px;
+      margin-left: -260px;
 
       }
 
