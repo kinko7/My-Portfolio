@@ -23,7 +23,7 @@
     color:rgba(0, 0, 0, 0.938);
     display:flex;
     margin: 10px;
-transform: 1seg;
+  
 
     }   
 
@@ -43,8 +43,7 @@ transform: 1seg;
     transition: all 1s;
     }
     .news-cards img:hover {
-  
-    cursor: pointer;
+
     transition: all 2s;
     transform: scale(1.2);
     
