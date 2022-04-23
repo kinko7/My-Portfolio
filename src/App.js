@@ -1,5 +1,8 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import {
+  Route
+  , Routes
+} from "react-router-dom";
 import Tech from "./Component/Tech/Tech";
 import Proyects from "../src/Component/Proyects/Proyects";
 import Me from "./Component/Me";
@@ -7,7 +10,7 @@ import Home from "../src/Component/Home/home";
 import Contact from "../src/Component/Contact/contact";
 import "./App.css";
 
-function App() {
+function App( ) {
   return (
     <div className="App">
       <Routes>
