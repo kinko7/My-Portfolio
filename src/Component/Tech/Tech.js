@@ -24,10 +24,7 @@ export default function Tech() {
   return (
     <div>
       <Recontact/>
-      <nav className="nav-1">
-        <span className="nav-2">JAVASCRIPT - CSS - HTML - NODEJS - REACT - REDUX - EXPRESS - POSTGRES - SEQUELIZE </span>
-      </nav>
-      <div className="lets">
+       
         <div classname="riu">
           <div className="cards">
             <div className="butttons">
@@ -44,7 +41,7 @@ export default function Tech() {
             </div>
           </div>
         </div>
-      </div>
+   
       <div></div>
     </div>
   );

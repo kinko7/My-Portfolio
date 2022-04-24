@@ -1,40 +1,22 @@
 
-      .nav-1 {
-      font-size: 12px;
-      display: flex;
-      justify-content: flex-start;
-      padding: 20px 3;
-      margin:15px;
-      margin-top: 20px;
-
-}
-/* background: url("../view/w.jpg") no-repeat center center/cover; */
-      .lets  {
-
-      padding: 4.5rem;
-      margin-left: 276px;
-      background-color:white;
-      background-blend-mode: multiply;
-
-      }  
 
       .cards {
-      width: 850px;
-      height: auto;
+     
       padding: 2rem;
       border-radius: 1rem;
-      margin-left: -260px;
+  
 
       }
 
       .cards {
-      background: rgba(98, 96, 96, 0.698);
+      margin-top: 100px;
+      background: rgba(0, 0, 0, 0.698);
      
       }
 
 
       .butttons{
-            margin-left:-50px;
+            margin-left:-15px;
             margin-right: -10px;
             display: flex;
       }
@@ -42,8 +24,8 @@
 
 
       .butttons img{
-      width: 130px;
-      height:105px;
+      
+      height:115px;
       padding: 3%;
       transition: all 2s;
     

@@ -12,7 +12,7 @@ export default function Contact() {
     init(textRefe.current, {
       showCursor: true,
       strings: [
-        "                SEE YOU SOON !                                                                       ",
+        "                Let´s talk!                                                                       ",
         "                                                                        ",
       ],
     });
@@ -33,10 +33,10 @@ export default function Contact() {
         </div>
         <br />
         <br />
-        <div>
+        <div className="ion">
           <a href="https://github.com/kinko7" target="blank">
             <img
-              className="ion"
+             
               src="https://cx5v8.csb.app/iconos/github-modo-claro.svg"
               alt="no"
             />

@@ -35,7 +35,7 @@ export default function Proyects() {
                   <a href={e.link} target="_blank">
                   <img
               className="redimension"
-              src="https://cx5v8.csb.app/iconos/github-modo-claro.svg"
+              src="https://cx5v8.csb.app/iconos/github-modo-oscuro.svg"
               alt="no"
             />
                   </a>

@@ -6,8 +6,8 @@
     padding:6%;
     margin-top: 5px;
     transition: all  1s;
-    border: 2px solid rgb(49, 48, 48);
-    background-color:white
+    border: 2px solid rgb(248, 242, 242);
+    background-color:rgb(0, 0, 0)
     /* background: url("../view/w.jpg") no-repeat center center/cover; */
     /* background-color:rgb(15, 88, 86);
     background-blend-mode: multiply; */
@@ -20,7 +20,7 @@
     border:none;
     padding:2px;
     font-size: 35px;
-    color:rgba(0, 0, 0, 0.938);
+    color:rgba(171, 0, 0, 0.938);
     display:flex;
     margin: 10px;
   
@@ -29,8 +29,8 @@
 
     .bt:hover{
     cursor: pointer;
-    transform: scale(1.2);
-    transform: rotateY(360deg);
+    transition: all 2s;
+    transform: scale(1.4);
        }
  
  
@@ -38,8 +38,9 @@
     
     .news-cards img {
     width: 100%;
-    height: 290px;
+    height: 260px;
     padding: 10px;
+    border: 2px solid rgb(248, 242, 242);
     transition: all 1s;
     }
     .news-cards img:hover {
@@ -54,29 +55,31 @@
 
     img.redimension{
     padding: 4%;
-    width:100%;
-    height: 150%;
+    width:80%;
+    height: 120%;
     background: none;
     margin-bottom: -5px;
-    margin-top: -30px;
-
-
+    color:white
+ 
+ 
     }   
-img.redimension:hover{
-   transform: scale(1.2);
-   transform: rotateY(360deg);
+    
+    img.redimension:hover{
+   cursor: pointer;
+   transition: all 2s;
+   transform: scale(1.1);
 }
     .news-cards h5 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     margin: 8px 0;
-    color:rgba(42, 41, 41, 0.938)
+    color:rgba(255, 255, 255, 0.938)
     }  
 
 
     .news-cards a {
     padding: 8px 0;
-    color: #2c2929;
+    color: #ffffff;
     text-transform: uppercase;
     display: inline-block;
  

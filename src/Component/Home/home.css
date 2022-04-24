@@ -18,6 +18,7 @@ list-style: none;
 .container {
 width: 94%;
 margin: auto;
+color:black
 
 }
 
@@ -31,6 +32,7 @@ height: 8px;
 padding: 20px 0;
 margin:5px;
 margin-top: 20px;
+color:black
 
 }
 
@@ -38,7 +40,7 @@ hr{
 margin : 3px 0
 }
 .nav-brand {
-color:rgb(66, 66, 66);
+color:rgb(255, 255, 255);
 font-size:18px;
 letter-spacing: 5px;
 font-family: 'Open Sans Condensed', sans-serif;
@@ -60,7 +62,7 @@ padding: 5px;
 
 .nav-main ul li a {
 padding: 2px;
-color:rgb(37, 1, 1);
+color:rgb(248, 248, 248);
 font-size: 11px;
 letter-spacing: 3px;
 
@@ -68,7 +70,7 @@ letter-spacing: 3px;
 
 .nav-main ul li a:hover {
     border-bottom: 1px solid rgb(230, 227, 227);
-    color:rgb(85, 85, 231)
+    color:rgb(255, 255, 255)
     
 
 }

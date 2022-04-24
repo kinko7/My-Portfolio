@@ -1,12 +1,13 @@
 
 .nav-2 {
-font-size: 12px;
+font-size: 14px;
 display: flex;
 justify-content: flex-start;
 padding: 20px 3;
-margin:15px;
+margin:25px;
 margin-top: 20px;
 font-family: 'Open Sans Condensed', sans-serif;
+color:white
 
 }
 
@@ -22,8 +23,8 @@ font-family: 'Open Sans Condensed', sans-serif;
 .lets{
 
 font-size: 27px;
-letter-spacing: 5px;
-color:rgba(87, 71, 71, 0.993);
+letter-spacing: 2px;
+color:rgba(221, 203, 203, 0.993);
 font-family: 'Open Sans Condensed', sans-serif;
 
 }
@@ -40,18 +41,21 @@ margin-bottom: 10px;
 .fond{
 
 height: -50px;
-background: url("../view/e.jpg") no-repeat ;
 margin-bottom: 30px;
 margin-left: 25px;
 
 
 }
+ 
 
 .ion{
 transition: all 2s;
-padding: 40px;
-}   
+padding:11px;
+margin-right: 35px;
 
+}
+ 
+   
 .ion:hover{
 cursor: pointer;
 transition: all 2s;
