@@ -29,11 +29,11 @@ export default function Tech() {
           <div className="cards">
             <div className="butttons">
               <img src={Js} alt="no" />
-              <img src={Redux} alt="no" />
               <img src={Redu} alt="no" />
               <img src={Node} alt="no" />
               <img src={My} alt="no" />
               <img src={Pos} alt="no" />
+              <img src={Redux} alt="no" />
               <img src={Css} alt="no" />
               <img src={Htm} alt="no" />
 

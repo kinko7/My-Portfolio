@@ -42,7 +42,7 @@ export default function Contact() {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/carlos-fullstackdev/"
+            href="https://www.linkedin.com/in/carlos-fullstackdeveloper/"
             target="blank"
           >
             <img

@@ -57,12 +57,10 @@ margin-right: 35px;
  
    
 .ion:hover{
-cursor: pointer;
-transition: all 2s;
-transform:rotateY(250deg);
-
-
-
+    cursor: pointer;
+    transition: all 2s;
+    transform: scale(1.2);
+ 
 }
 
 
