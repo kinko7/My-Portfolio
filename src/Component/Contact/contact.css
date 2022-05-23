@@ -49,7 +49,7 @@ margin-left: 25px;
  
 
 .ion{
-transition: all 2s;
+
 padding:11px;
 margin-right: 35px;
 
@@ -58,8 +58,8 @@ margin-right: 35px;
    
 .ion:hover{
     cursor: pointer;
-    transition: all 2s;
-    transform: scale(1.2);
+   
+;
  
 }
 
