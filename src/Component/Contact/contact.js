@@ -10,9 +10,9 @@ export default function Contact() {
 
   useEffect(() => {
     init(textRefe.current, {
-      showCursor: true,
+      showCursor: false,
       strings: [
-        "                Let´s talk!                                                                       ",
+        "                Please, Feel free to reach me!                                                                       ",
         "                                                                        ",
       ],
     });
@@ -20,7 +20,7 @@ export default function Contact() {
 
   return (
     <>
-<div className="fond">
+ 
       <div>
         <Recontact/>
         <div>
@@ -35,32 +35,27 @@ export default function Contact() {
         <br />
         <div className="ion">
           <a href="https://github.com/kinko7" target="blank">
-            <img
-             
-              src="https://cx5v8.csb.app/iconos/github-modo-claro.svg"
+            <img src="https://cx5v8.csb.app/iconos/github-modo-claro.svg"
               alt="no"
             />
           </a>
-          <a
-            href="https://www.linkedin.com/in/carlos-fullstackdeveloper/"
+          <a href="https://www.linkedin.com/in/carlos-fullstackdeveloper/"
             target="blank"
           >
-            <img
-              className="ion"
+            <img 
               src="https://cx5v8.csb.app/iconos/linkedin.svg"
               alt="no"
             />
           </a>
           <a href="mailto:carlosmarleta@gmail.com" target="blank">
-            <img
-              className="ion"
+            <img 
               src="https://cx5v8.csb.app/iconos/gmail.svg"
               alt="no"
             />
           </a>
         </div>
       </div>
-      </div>
+      
     </>
   );
 }

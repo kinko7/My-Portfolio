@@ -9,7 +9,7 @@ export default function Me() {
     <Recontact/>
     <div>
       <nav className="nav-1">
-        <span className="nav-2">ABOUT</span>
+        <span className="nav-2">ABOUT ME...</span>
       </nav>
       <div className="let">
         <div className="card">

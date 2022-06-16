@@ -9,7 +9,7 @@ export default function Proyects() {
   const [proyects, setProyects] = useState({});
   useEffect(() => {
     axios
-      .get("https://back-jasonortflio.vercel.app/proyects")
+      .get("https://back-p.herokuapp.com/proyects")
       .then((res) => setProyects(res.data));
   }, [setProyects]);
   return (

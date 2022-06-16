@@ -24,7 +24,11 @@ export default function Tech() {
   return (
     <div>
       <Recontact/>
-       
+      <div>
+          <nav className="nav-1">
+            <span className="nav-2">TECHS SKILLS</span>
+          </nav>
+        </div>
         <div classname="riu">
           <div className="cards">
             <div className="butttons">

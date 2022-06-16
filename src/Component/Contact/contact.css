@@ -1,66 +1,36 @@
 
 .nav-2 {
-font-size: 14px;
-display: flex;
-justify-content: flex-start;
-padding: 20px 3;
-margin:25px;
-margin-top: 20px;
+ 
 font-family: 'Amatic SC', cursive;
-color:white
+color:white;
+ 
 
 }
 
-
-.nav-3 {
-color:#474343;
-font-size:20px;
-letter-spacing: 2px;
-font-family: 'Amatic SC', cursive;
-
-}
 
 .lets{
 
-font-size: 27px;
+font-size: 47px;
 letter-spacing: 2px;
-color:rgba(221, 203, 203, 0.993);
+color: rgba(0, 204, 255, 0.687);
 font-family: 'Amatic SC', cursive;
 
 }
 
 .containers {
-
-height: auto;
-padding: 3rem;
-margin-bottom: 10px;
-
-
-}
-
-.fond{
-
-height: -50px;
-margin-bottom: 30px;
-margin-left: 25px;
+    margin-top: 70px;
+ 
+margin-bottom: 45px;
 
 
 }
  
-
-.ion{
-
-padding:11px;
-margin-right: 35px;
-
-}
+ 
  
    
 .ion:hover{
     cursor: pointer;
-   
-;
- 
+
 }
 
 
