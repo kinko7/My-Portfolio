@@ -26,6 +26,7 @@ export default function Proyects() {
                 <h5 key={i}>{e.name}</h5>
                 <img src={e.image}></img>
                 <p>{e.description}</p>
+                <p>{e.tecnologies}</p>
                 <div className="git">
                   <a href={e.tube} target="_blank">
                     <button className="bt">
