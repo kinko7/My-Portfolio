@@ -4,12 +4,12 @@ import axios from "axios";
 import git from "../assets/git.png";
 import "./Proyects.css";
 import Recontact from "../Recontact";
-
+import Me from "../Me"
 export default function Proyects() {
   const [proyects, setProyects] = useState({});
   useEffect(() => {
     axios
-      .get("https://back-p.herokuapp.com/proyects")
+      .get("https://beta-films.herokuapp.com/films")
       .then((res) => setProyects(res.data));
   }, [setProyects]);
   return (
