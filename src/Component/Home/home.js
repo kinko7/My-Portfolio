@@ -9,17 +9,6 @@ import Curriculum from "../assets/cv.pdf";
 import "../Home/home.css";
 
 export default function Home() {
-  const textRefe = useRef();
-
-  useEffect(() => {
-    init(textRefe.current, {
-      showCursor: false,
-      strings: [
-        "CARLOS MARLETA",
-        "Full Stack Web Developer                                                                         ",
-      ],
-    });
-  }, []);
 
   return (
     <div className="container">
@@ -32,13 +21,7 @@ export default function Home() {
       </nav>
       <hr></hr>
       <header className="showcase">
-        {/* <span className="let" ref={textRefe}></span>{" "} */}
-        {/* <a href="#">Read More <i className="fas fa-angle-double-right"></i></a>   */}
-
-        <p className="vam">CARLOS MARLETA</p>
-        <hr />
-         <br />
-        <strong className="vams"> FULL STACK DEVELOPER </strong>
+  
       </header>
     </div>
   );
