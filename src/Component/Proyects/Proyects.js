@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { AiFillYoutube } from "react-icons/ai";
 import axios from "axios";
-import git from "../assets/git.png";
 import "./Proyects.css";
 import Recontact from "../Recontact";
-import Me from "../Me"
+
 export default function Proyects() {
   const [proyects, setProyects] = useState({});
   useEffect(() => {
@@ -18,7 +17,7 @@ export default function Proyects() {
       <div className="cont">
         <nav className="nav-1"></nav>
 
-        <span className="nav-2">PROYECTS</span>
+        <strong className="nav-2">PROYECTS</strong>
         <div className="news-cards">
           {proyects.length > 0 &&
             proyects.map((e, i) => (
@@ -34,18 +33,18 @@ export default function Proyects() {
                     </button>
                   </a>
                   <a href={e.link} target="_blank">
-                  <img
-              className="redimension"
-              src="https://cx5v8.csb.app/iconos/github-modo-oscuro.svg"
-              alt="no"
-            />
+                    <img
+                      className="redimension"
+                      src="https://cx5v8.csb.app/iconos/github-modo-oscuro.svg"
+                      alt="no"
+                    />
                   </a>
                   {/* <a href={e.link} target="_blank">clik</a> */}
                 </div>
               </div>
             ))}
         </div>
-        <div className="foot">Copyright derechos reservados.</div>
+        <div className="foot">@Copyright derechos reservados.</div>
       </div>
     </>
   );

@@ -1,105 +1,102 @@
-
 .nav-2 {
- 
-font-family: 'Amatic SC', cursive;
-color:rgb(26, 16, 1);
-margin-top: 55px;
-font-size:20px;
- 
 
- }
-
- .re{
- 
     font-family: 'Amatic SC', cursive;
-    color:rgb(26, 16, 1);
+    color: rgb(51, 47, 47);
+    margin-top: 55px;
+    font-size: 20px;
+    
+
+
+}
+
+.re {
+
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
     margin-top: 55px;
     margin-left: -123px;
     font-size: larger;
-    
-     }
 
- .div{
-   
-    display: flex;
-  
-    margin-bottom: 5px;
-    
- }
-
-.form{
-     display: flex;
-    justify-content: center;
-  
-    border-radius: 20px;
-  
- margin-left: 30px;
 }
 
-.bo{display: flex;
+.div {
+
+    display: flex;
+
+    margin-bottom: 5px;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+
+    border-radius: 20px;
+
+    margin-left: 30px;
+}
+
+.bo {
+    display: flex;
     background-color: rgba(255, 255, 255, 0.644);
-   
+
     padding: 10px;
-   margin: 5px;
+    margin: 5px;
     margin-bottom: 25px;
- 
-    border-radius: 10px;}
+
+    border-radius: 10px;
+}
+
 .boxis {
     background-color: rgba(255, 255, 255, 0.644);
-   
+
     padding: 10px;
-   margin: 5px;
-    
- 
+    margin: 5px;
+
+
     border-radius: 10px;
- 
-    
-    
-    }
-    
-  
-   
-.btn{
-    display:flex;
+
+
+
+}
+
+
+
+.btn {
+    display: flex;
     color: rgba(255, 255, 255, 0.687);
     font-family: 'Amatic SC', cursive;
-   padding: 5px;
-   margin: 10px;
-    
-   background-color: rgb(35, 24, 1);
+    padding: 5px;
+    margin: 10px;
+
+    background-color: rgb(35, 24, 1);
     cursor: pointer;
-   border-radius: 4px;
+    border-radius: 4px;
 }
-.btn:hover{
+
+.btn:hover {
     transition: all 1s;
-    
+
     cursor: pointer;
-    background-color:none;
-    color:rgb(255, 255, 255)
-  }
- 
- 
-   
-.ion{
+    background-color: none;
+    color: rgb(255, 255, 255)
+}
+
+
+
+.ion {
     display: inline;
     cursor: pointer;
     height: 10px;
     transition: all 1s;
     padding: 5px;
     align-content: flex-start;
-   
+
 }
 
 
-.ion :hover{
+.ion :hover {
     cursor: pointer;
-transition: all 1s;
-transform: scale(1.2);
+    transition: all 1s;
+    transform: scale(1.2);
 }
-
-
-
-
-
-
-

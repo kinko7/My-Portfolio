@@ -70,9 +70,8 @@ font-family: 'Amatic SC', cursive;
 }
 
 .nav-main ul li a:hover {
-    border-bottom: 1px solid rgb(230, 227, 227);
-    color:rgb(255, 255, 255)
-    
+    border-bottom: 1px solid rgb(0, 221, 255);
+    color:rgb(46, 46, 46);
 
 }
 
@@ -99,8 +98,7 @@ background-blend-mode: multiply; */
 cursor: pointer;
 transition: all 2s;
 transform:rotateY(250deg);
-filter:grayscale(100%)
-
+ 
 }
 
 .vam{

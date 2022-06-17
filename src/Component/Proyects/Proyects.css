@@ -7,7 +7,7 @@ padding:6%;
 margin-top: 5px;
 transition: all  1s;
 border: 2px solid rgb(81, 56, 1);
-background-color:rgba(57, 195, 213, 0.273)
+background-color:rgba(194, 252, 252, 0.937)
 /* background: url("../view/w.jpg") no-repeat center center/cover; */
 /* background-color:rgb(15, 88, 86);
 background-blend-mode: multiply; */
@@ -40,7 +40,7 @@ transform: scale(1.4);
 width: 100%;
 height: 260px;
 padding: 10px;
-border: 2px solid rgb(255, 255, 254);
+border: 2px solid rgba(41, 37, 1, 0.411);
 transition: all 1s;
 }
 .news-cards img:hover {
@@ -72,7 +72,7 @@ transform: scale(1.1);
    font-family: 'Amatic SC', cursive;
 font-size: 20px;
 margin: 8px 0;
-color:rgba(71, 37, 3, 0.763)
+color:rgba(29, 54, 58, 0.763)
 }  
 
 

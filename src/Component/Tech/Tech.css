@@ -4,14 +4,18 @@
      
       padding: 1rem;
       width: 100%;
-     
-  
 
       }
+     h2 {
+            
+            text-align: center;
+            font-family: 'Amatic SC', cursive;
+            color: aliceblue;
 
+      }
       .cards {
-      margin-top: 30px;
-      background: rgba(0, 0, 0, 0.63);
+      margin-top: -22px;
+      background: rgba(54, 54, 54, 0.63);
       border: 2px solid rgb(255, 255, 254);
      
       }

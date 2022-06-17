@@ -9,12 +9,12 @@ export default function Me() {
     <Recontact/>
     <div>
       <nav className="nav-1">
-        <span className="nav-2">ABOUT ME...</span>
+        <span className="nav-2">ABOUT ME ...</span>
       </nav>
       <div className="let">
         <div className="card">
           <p>
-Hi,I´m Carlos...
+Hi,I´m Carlos...Full Stack Developer backend orinted.
 for many years I dedicated myself, as an actor and Teacher Drama to
 the performing arts.Times of pandemic, created
 the opportunity to try a positive evolution in my professional life.
