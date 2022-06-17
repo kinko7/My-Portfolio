@@ -39,7 +39,7 @@ export default function Tech() {
               <img src={Pos} alt="no" />
               <img src={Redux} alt="no" />
               <img src={Css} alt="no" />
-              <img src={Htm} alt="no" />
+           
 
               {/* <img src={Express} alt="no" /> */}
             </div>
