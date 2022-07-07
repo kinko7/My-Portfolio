@@ -7,7 +7,7 @@ padding:6%;
 margin-top: 5px;
 transition: all  1s;
 border: 2px solid rgb(81, 56, 1);
-background-color:rgba(194, 252, 252, 0.937)
+background-color:rgba(249, 250, 250, 0.937)
 /* background: url("../view/w.jpg") no-repeat center center/cover; */
 /* background-color:rgb(15, 88, 86);
 background-blend-mode: multiply; */
@@ -44,7 +44,7 @@ border: 2px solid rgba(41, 37, 1, 0.411);
 transition: all 1s;
 }
 .news-cards img:hover {
-cursor:pointer;
+ 
 transition: all 2s;
 transform: scale(1.2);
 

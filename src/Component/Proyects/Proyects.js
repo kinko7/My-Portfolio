@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { AiFillYoutube } from "react-icons/ai";
+import { AiFillYoutube, AiFillGithub} from "react-icons/ai";
 import axios from "axios";
 import "./Proyects.css";
 import Recontact from "../Recontact";
@@ -33,11 +33,9 @@ export default function Proyects() {
                     </button>
                   </a>
                   <a href={e.link} target="_blank">
-                    <img
-                      className="redimension"
-                      src="https://cx5v8.csb.app/iconos/github-modo-oscuro.svg"
-                      alt="no"
-                    />
+                  <button className="bt">
+                      <AiFillGithub/>
+                      </button>
                   </a>
                   {/* <a href={e.link} target="_blank">clik</a> */}
                 </div>
