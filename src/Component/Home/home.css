@@ -86,14 +86,21 @@ margin-left: 20px;
 width: 100%;
 /* //imagen foto */
 height: 500px;
-background: url("../assets/land.jpg") no-repeat center center/cover;
+background: url("../assets/34.jpg") no-repeat center center/cover;
 display: flex;
 transition: 2s;
-/* background-color:rgb(0, 255, 136);
-background-blend-mode: multiply; */
+margin-bottom: 20px;
+background-color:rgb(237, 245, 252);
+background-blend-mode: multiply;
 
 }
-
+/* .show{
+    font-family: 'Lato', sans-serif;
+    margin-top: 370px;
+    align-content:flex-start;
+   padding:30px;
+    color:white
+} */
 .showcase:hover{
 cursor: pointer;
 transition: all 2s;

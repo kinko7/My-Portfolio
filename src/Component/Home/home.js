@@ -1,14 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { init } from "ityped";
-import { useEffect, useRef } from "react";
 import Recontact from "../Recontact";
 
-import Curriculum from "../assets/cv.pdf";
 
 import "../Home/home.css";
 
 export default function Home() {
+
 
   return (
     <div className="container">
@@ -20,8 +17,20 @@ export default function Home() {
         </ul>
       </nav>
       <hr></hr>
+      
       <header className="showcase">
+        {/* <div className="show">
+
+
   
+    
+       
+  <h1>I´M CARLOS MARLETA</h1>
+   
+ 
+ 
+  <strong>FULLSTACK BACKEND DEVELOPER</strong>
+  </div> */}
       </header>
     </div>
   );

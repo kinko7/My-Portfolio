@@ -40,7 +40,7 @@ export default function Tech() {
               <img src={Pos} alt="no" />
               <img src={Redux} alt="no" />
            
-            <h2> Css Html Javascript Redux NodeJS Postgres Redux</h2>
+            <h2> Css Html Javascript Redux NodeJS Postgres ReactJS</h2>
 
             </div>
           </div>

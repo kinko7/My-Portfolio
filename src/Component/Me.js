@@ -14,7 +14,7 @@ export default function Me() {
       <div className="let">
         <div className="card">
           <p>
-Hi,I´m Carlos...Full Stack Developer backend orinted.
+Hi,I´m Carlos Marleta...FullStack Developer Backend orinted.
 for many years I dedicated myself, as an actor and Teacher Drama to
 the performing arts.Times of pandemic, created
 the opportunity to try a positive evolution in my professional life.
