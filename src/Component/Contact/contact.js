@@ -76,7 +76,7 @@ export default function Contact() {
             placeholder="message"
           />
           <button className="btn" type="submit">
-            Send mail
+            SEND
           </button>
           <div className="div">
             <div className="ion">

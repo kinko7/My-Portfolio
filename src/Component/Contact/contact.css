@@ -1,7 +1,7 @@
 .nav-2 {
 
     font-family: 'Amatic SC', cursive;
-    color: rgb(51, 47, 47);
+    color: rgb(5, 172, 214);
     margin-top: 55px;
     font-size: 20px;
 
@@ -64,12 +64,12 @@
 
 .btn {
     display: flex;
-    color: rgba(255, 255, 255, 0.687);
+    color: rgba(0, 0, 0, 0.857);
     font-family: 'Amatic SC', cursive;
     padding: 5px;
     margin: 10px;
 
-    background-color: rgb(35, 24, 1);
+    background-color: rgb(220, 185, 109);
     cursor: pointer;
     border-radius: 4px;
 }
