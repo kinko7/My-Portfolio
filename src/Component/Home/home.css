@@ -71,7 +71,7 @@ font-family: 'Amatic SC', cursive;
 
 .nav-main ul li a:hover {
     border-bottom: 1px solid rgb(0, 221, 255);
-    color:rgb(234, 210, 123);
+    color:rgb(12, 206, 213)
 
 }
 
@@ -94,13 +94,7 @@ background-color:rgb(237, 245, 252);
 background-blend-mode: multiply;
 
 }
-/* .show{
-    font-family: 'Lato', sans-serif;
-    margin-top: 370px;
-    align-content:flex-start;
-   padding:30px;
-    color:white
-} */
+
 .showcase:hover{
 cursor: pointer;
 transition: all 2s;

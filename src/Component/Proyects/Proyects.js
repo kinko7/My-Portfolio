@@ -17,7 +17,7 @@ export default function Proyects() {
       <div className="cont">
         <nav className="nav-1"></nav>
 
-        <strong className="nav-2">PROYECTS</strong>
+       
         <div className="news-cards">
           {proyects.length > 0 &&
             proyects.map((e, i) => (

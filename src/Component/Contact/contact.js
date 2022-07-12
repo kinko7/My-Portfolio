@@ -83,7 +83,7 @@ export default function Contact() {
               <a href="https://github.com/kinko7" target="blank">
                 <img
                   height="35px"
-                  src="https://cx5v8.csb.app/iconos/github-modo-claro.svg"
+                  src="https://cx5v8.csb.app/iconos/github-modo-oscuro.svg"
                   alt="no"
                 />
               </a>
