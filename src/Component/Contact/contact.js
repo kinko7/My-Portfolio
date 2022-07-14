@@ -89,13 +89,14 @@ export default function Contact() {
               </a>
             </div>
             <div className="ion">
-              <a
-                href="https://www.linkedin.com/in/carlos-fullstackdeveloper" target="blank">
+              <a href="https://www.linkedin.com/in/carlos-fullstackdeveloper" target="blank">
+              
               <img
                 height="35px"
                 src="https://cx5v8.csb.app/iconos/linkedin.svg"
                 alt="no"
               />
+              </a>
             </div>
           </div>
         </form>

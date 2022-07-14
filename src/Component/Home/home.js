@@ -1,7 +1,5 @@
 import React from "react";
 import Recontact from "../Recontact";
-
-
 import "../Home/home.css";
 
 export default function Home() {
