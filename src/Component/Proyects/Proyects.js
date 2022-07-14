@@ -37,7 +37,6 @@ export default function Proyects() {
                       <AiFillGithub/>
                       </button>
                   </a>
-                  {/* <a href={e.link} target="_blank">clik</a> */}
                 </div>
               </div>
             ))}
