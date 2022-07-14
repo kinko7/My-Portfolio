@@ -90,9 +90,7 @@ export default function Contact() {
             </div>
             <div className="ion">
               <a
-                href="https://www.linkedin.com/in/carlos-fullstackdeveloper/"
-                target="blank"
-              />
+                href="https://www.linkedin.com/in/carlos-fullstackdeveloper" target="blank">
               <img
                 height="35px"
                 src="https://cx5v8.csb.app/iconos/linkedin.svg"
