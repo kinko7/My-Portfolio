@@ -37,7 +37,7 @@ export default function Proyects() {
                       <AiFillGithub/>
                       </button>
                   </a>
-                </div>
+s                </div>
               </div>
             ))}
         </div>
