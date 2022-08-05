@@ -11,9 +11,9 @@ export default function Me() {
       <nav className="nav-1">
         <span className="nav-2">ABOUT ME ...</span>
       </nav>
-      <div className="let">
-        <div className="card">
-          <p>
+      <div className="containerrr">
+        <div className="cards">
+          <h4>
 Hi,I´m Carlos Marleta...FullStack Developer Backend orinted.
 for many years I dedicated myself, as an actor and Teacher Drama to
 the performing arts.Times of pandemic, created
@@ -37,7 +37,7 @@ this new stage of the search for a first opportunity, a job. There
 is still a lot ahead. Effort, collaboration and constant search for
 new solutions to improve people's lives through a responsible
 practice tailored to that end.
-          </p>
+          </h4>
         </div>
       </div>
     </div>

@@ -17,32 +17,44 @@ export default function Proyects() {
       <div className="cont">
         <nav className="nav-1"></nav>
 
+        <div className="containerr">
        
-        <div className="news-cards">
+
+       
           {proyects.length > 0 &&
             proyects.map((e, i) => (
-              <div>
-                <h5 key={i}>{e.name}</h5>
-                <img src={e.image}></img>
-                <p>{e.description}</p>
-                <p>{e.tecnologies}</p>
-                <div className="git">
-                  <a href={e.tube} target="_blank">
-                    <button className="bt">
-                      <AiFillYoutube />
+       
+              <div className="card">
+                <div>
+            <h3 key={i}>{e.name}</h3>
+              <img src={e.image}></img>
+              <br/>
+              <h6>{e.description}</h6>
+              <h6>{e.tecnologies}</h6>
+              <div className="git">
+                <a href={e.tube} target="_blank">
+               <button className="bt">
+                     <AiFillYoutube />
                     </button>
-                  </a>
+             </a>
                   <a href={e.link} target="_blank">
-                  <button className="bt">
-                      <AiFillGithub/>
-                      </button>
-                  </a>
-s                </div>
+               <button className="bt">
+                     <AiFillGithub/>
+                    </button>
+              </a>
+              </div>  
               </div>
-            ))}
-        </div>
-        <div className="foot">@Copyright derechos reservados.</div>
-      </div>
+             
+             
+              <h6>@Copyright 2021</h6>
+              </div> 
+              ))}
+            
+           
+            </div>  
+              </div>  
+    
+    
     </>
   );
 }

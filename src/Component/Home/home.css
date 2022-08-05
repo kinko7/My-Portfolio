@@ -43,7 +43,7 @@ margin : 3px 0
 color:rgb(255, 255, 255);
 font-size:18px;
 letter-spacing: 5px;
-font-family: 'Amatic SC', cursive;
+font-family: 'Poppins', sans-serif;
 }
 
 /* Navbar Left */
@@ -52,7 +52,7 @@ display: flex;
 padding: 5px;
 margin:-20px;
 justify-content:end ;
-font-family: 'Amatic SC', cursive;
+font-family: 'Poppins', sans-serif;
 }
  
 
@@ -65,7 +65,7 @@ padding: 2px;
 color:rgb(255, 255, 255);
 font-size: 12px;
 letter-spacing: 1px;
-font-family: 'Amatic SC', cursive;
+font-family: 'Poppins', sans-serif;
 
 }
 
@@ -109,7 +109,7 @@ margin: 255px;
 margin-top: 90px;
 margin-left:10px;
 color:rgb(75, 75, 83);
-font-family: 'Amatic SC', cursive;
+font-family: 'Poppins', sans-serif;
 letter-spacing: 7px;
 }
 
@@ -118,7 +118,7 @@ font-size: 13px;
 margin-top: 300px;
 margin-left: 30px;
 color:rgb(255, 255, 255);
-font-family: 'Amatic SC', cursive;
+font-family: 'Poppins', sans-serif;
 letter-spacing: 7px; 
 }
 

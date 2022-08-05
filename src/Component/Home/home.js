@@ -17,18 +17,7 @@ export default function Home() {
       <hr></hr>
       
       <header className="showcase">
-        {/* <div className="show">
-
-
-  
     
-       
-  <h1>I´M CARLOS MARLETA</h1>
-   
- 
- 
-  <strong>FULLSTACK BACKEND DEVELOPER</strong>
-  </div> */}
       </header>
     </div>
   );

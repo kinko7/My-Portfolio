@@ -1,6 +1,6 @@
 .nav-2 {
 
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Poppins', sans-serif;
     color: rgb(5, 172, 214);
     margin-top: 55px;
     font-size: 20px;
@@ -10,8 +10,7 @@
 }
 
 .re {
-
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
     margin-top: 55px;
     margin-left: -123px;
@@ -64,12 +63,12 @@
 
 .btn {
     display: flex;
-    color: rgb(10, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: 'Amatic SC', cursive;
     padding: 5px;
     margin: 10px;
 
-    background-color: rgb(220, 185, 109);
+    background-color:rgb(69, 222, 243);
     cursor: pointer;
     border-radius: 4px;
 }
@@ -79,7 +78,7 @@
 
     cursor: pointer;
     background-color: none;
-    color: rgb(255, 255, 255)
+    color: rgb(0, 217, 255)
 }
 
 
