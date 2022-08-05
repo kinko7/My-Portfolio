@@ -1,5 +1,5 @@
 import React from "react";
-import Curriculum from "./assets/cv.pdf";
+import Curriculum from "./assets/CV.pdf";
 
 export default function Recontact(){
 
