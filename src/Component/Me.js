@@ -8,35 +8,21 @@ export default function Me() {
     <>
     <Recontact/>
     <div>
-      <nav className="nav-1">
-        <span className="nav-2">ABOUT ME ...</span>
-      </nav>
       <div className="containerrr">
         <div className="cards">
           <h4>
-Hi,I´m Carlos Marleta...FullStack Developer Backend orinted.
-for many years I dedicated myself, as an actor and Teacher Drama to
-the performing arts.Times of pandemic, created
-the opportunity to try a positive evolution in my professional life.
-That is how I chose to apply to Henry Bootcamp where I spent more
-than 800 hours learning and codinng with a lot
-of commitment, responsibility and enthusiasm to learn to progress
-looking for a better future for me and my family. The first big
-goal, I achieved it. Today I am a Full-Stack developer who seeks to
-integrate an important professional team at the service of a company
-that faces new challenges to consolidate a progressive future where,
-from my place, will provide commitment, responsible work,
-and learn to grow professionally. I consider myself
-organized and proactive, with good
-management of interpersonal relationships, predisposition for
-team work and challenges. I am interested in developing myself in
-dynamic environments that allow me to continue learning and 
-developing in the wonderful world of programming. Attitude, joy,
-enthusiasm and commitment to give the best of me, are my engines in
-this new stage of the search for a first opportunity, a job. There
-is still a lot ahead. Effort, collaboration and constant search for
-new solutions to improve people's lives through a responsible
-practice tailored to that end.
+I am Full Stack Developer graduated from Henry Bootcamp with more than +800 hs coding, oriented on Backend and also art education teacher. 🙋🏽‍♂️
+
+I found in this new profession the possibility of combining these two universes, creative artistic thinking and rational logical thinking to translate it into digital practices, providing solutions to new technological challenges!✔
+
+I seek to collaborate and be part of a company that fully identifies with its vision, its culture and its technological projects. ✔
+
+These are some of the reasons why I consider myself a good candidate to get an opportunity to join your team.🙋🏽‍♂️
+
+Because I am passionate about what I do.
+Because I am looking for long-term job stability.⏰
+Because my goal is to learn from a great team by participating and collaborating in innovative, original, creative and personalized projects, adding value and motivation from my role.✨
+
           </h4>
         </div>
       </div>

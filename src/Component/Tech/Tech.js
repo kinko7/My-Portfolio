@@ -11,7 +11,7 @@ export default function Tech() {
       <Recontact/>
       <div>
           <nav className="nav-1">
-            <span className="nav-2">TECHS SKILLS ...</span>
+             
           </nav>
         </div>
         <div className= "techs">

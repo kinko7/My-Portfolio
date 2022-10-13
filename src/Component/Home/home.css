@@ -1,138 +1,132 @@
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
 a {
-color: #3a3a3a;
-text-decoration: none;
+    color: #3a3a3a;
+    text-decoration: none;
 }
 
 ul {
+    list-style: none;
 
-list-style: none;
 }
 
 .container {
-width: 94%;
-margin: auto;
-color:black
+    width: 94%;
+    margin: auto;
+    color: black
 
 }
 
 /* Navigation */
 .nav-main {
-font-size: 14px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-height: 8px;
-padding: 20px 0;
-margin:5px;
-margin-top: 20px;
-color:black
+    font-size: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8px;
+    padding: 20px 0;
+    margin: 5px;
+    margin-top: 15px;
+    color: black
 
 }
 
-hr{
-margin : 3px 0
-}
-.nav-brand {
-color:rgb(255, 255, 255);
-font-size:18px;
-letter-spacing: 5px;
-font-family: 'Poppins', sans-serif;
+hr {
+    margin: 3px 0
+
 }
 
 /* Navbar Left */
 .nav-main ul {
-display: flex;
-padding: 5px;
-margin:-20px;
-justify-content:end ;
-font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding: 5px;
+    margin: -20px;
+    justify-content: end;
+    font-family: 'Anton', sans-serif;
+    
 }
- 
+
 
 .nav-main ul li {
-padding: 5px;
+    
+    font-size: 25px;
+    margin:5px
+
 }
 
 .nav-main ul li a {
-padding: 2px;
-color:rgb(255, 255, 255);
-font-size: 12px;
-letter-spacing: 1px;
-font-family: 'Poppins', sans-serif;
+    padding: 4px;
+    margin: 5px;
+    color: rgb(167, 85, 85);
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    margin-top: 20px;
 
 }
 
 .nav-main ul li a:hover {
-    border-bottom: 1px solid rgb(0, 221, 255);
-    color:rgb(12, 206, 213)
-
+    color: rgb(250, 208, 208)
 }
 
 .nav-main ul.nav-menu {
-flex: 1;
-margin-left: 20px;
+    flex: 1;
+    margin-left: 20px;
 
 }
 
+.nav-brand {
+    font-family: 'Anton', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size:25px;
+    letter-spacing: 1px;
+    letter-spacing: 5px;
+     
+    }
 
 .showcase {
-width: 100%;
-/* //imagen foto */
-height: 500px;
-background: url("../assets/37.jpg") no-repeat center center/cover;
-display: flex;
-transition: 2s;
-margin-bottom: 20px;
-background-color:rgb(237, 245, 252);
-background-blend-mode: multiply;
+    width: 100%;
+    /* //imagen foto */
+    height: 450px;
+    background: url("../assets/back.png") no-repeat center center/cover;
+    display: flex;
+    transition: 2s;
+    margin-bottom: 20px;
+    background-color: rgb(237, 245, 252);
+    background-blend-mode: multiply;
+    margin-right: 5px;
 
 }
 
-.showcase:hover{
-cursor: pointer;
-transition: all 2s;
-transform:rotateY(250deg);
- 
+.showcase:hover {
+    cursor: pointer;
+    transition: all 2s;
+    transform: rotateY(250deg);
+
 }
 
-.vam{
-font-size: 25px;
-padding: 2px;
-margin: 255px;
-margin-top: 90px;
-margin-left:10px;
-color:rgb(75, 75, 83);
-font-family: 'Poppins', sans-serif;
-letter-spacing: 7px;
+.vam {
+    font-size: 25px;
+    padding: 2px;
+    margin: 255px;
+    margin-top: 90px;
+    margin-left: 10px;
+    color: rgb(75, 75, 83);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
+
 }
 
-.vams{
-font-size: 13px;
-margin-top: 300px;
-margin-left: 30px;
-color:rgb(255, 255, 255);
-font-family: 'Poppins', sans-serif;
-letter-spacing: 7px; 
+.vams {
+    font-size: 13px;
+    margin-top: 300px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

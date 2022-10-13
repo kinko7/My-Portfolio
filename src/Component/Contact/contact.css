@@ -1,61 +1,39 @@
-.nav-2 {
-
-    font-family: 'Poppins', sans-serif;
-    color: rgb(5, 172, 214);
-    margin-top: 55px;
-    font-size: 20px;
-
-
-
-}
-
+ 
 .re {
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
-    margin-top: 55px;
-    margin-left: -123px;
-    font-size: larger;
-
-}
-
-.div {
-
-    display: flex;
-
-    margin-bottom: 5px;
+    margin-top: 40px;
+    margin-left: -255x;
+    font-size: 30px;
 
 }
 
 .form {
     display: flex;
     justify-content: center;
-
     border-radius: 20px;
-
     margin-left: 30px;
+    margin-top: 5px;
+    
 }
 
 .bo {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.644);
-
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     margin: 5px;
-    margin-bottom: 25px;
-
     border-radius: 10px;
+    font-size: 25px;
+    color:rgb(55, 3, 3)
 }
 
 .boxis {
-    background-color: rgba(255, 255, 255, 0.644);
-
+    background-color: rgba(189, 82, 82, 0.747);
     padding: 10px;
     margin: 5px;
-
-
     border-radius: 10px;
-
-
+    font-size: 25px;
+    color:white
 
 }
 
@@ -63,39 +41,49 @@
 
 .btn {
     display: flex;
-    color: rgb(0, 0, 0);
-    font-family: 'Amatic SC', cursive;
-    padding: 5px;
-    margin: 10px;
-
-    background-color:rgb(69, 222, 243);
+    font-family: 'Anton', sans-serif;
+    padding: 15px;
+    margin: 5px;
+    background-color: black;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 4px;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
 .btn:hover {
     transition: all 1s;
-
     cursor: pointer;
-    background-color: none;
-    color: rgb(0, 217, 255)
+   
 }
-
-
 
 .ion {
     display: inline;
     cursor: pointer;
-    height: 10px;
     transition: all 1s;
-    padding: 5px;
-    align-content: flex-start;
+    padding: 15px;     
 
 }
-
 
 .ion :hover {
     cursor: pointer;
     transition: all 1s;
     transform: scale(1.2);
+    
+}
+
+.ph{
+    color: white;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.phh{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+     
 }

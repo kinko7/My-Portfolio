@@ -8,8 +8,7 @@ export default function Home() {
   return (
     <div className="container">
       <nav className="nav-main">
-        {/* <img src=""> */}
-        <span className="nav-brand">PORTFOLIO</span>
+      <span className="nav-brand">CARLOS MARLETA</span>
         <ul className="nav-menu">
          <Recontact/>
         </ul>

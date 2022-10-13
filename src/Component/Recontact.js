@@ -1,5 +1,5 @@
 import React from "react";
-import Ar from "my-portfolio\src\Component\CV.pdf"
+import Ar from "./Contact/CV.pdf"
 
 export default function Recontact(){
 
@@ -24,7 +24,7 @@ export default function Recontact(){
             </li>
             <li>
         
-            <a     download href={Ar} >
+            <a download href={Ar} >
                 DOWNLOAD CV
               </a>
             </li>

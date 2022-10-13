@@ -42,6 +42,7 @@ export default function Contact() {
       <div>
         <Recontact />
       </div>
+      <div className="container">
       <div>
         <nav className="re">
           <strong className="re">CONTACT</strong>
@@ -56,7 +57,7 @@ export default function Contact() {
             value={sender_name}
             onChange={handleName}
             required
-            placeholder="...your name"
+            placeholder="Name"
           />
           <input
             className="boxis"
@@ -65,7 +66,7 @@ export default function Contact() {
             value={sender_email}
             onChange={handleEmail}
             required
-            placeholder="...your email"
+            placeholder="e-mail"
           />
           <textarea
             className="bo"
@@ -81,8 +82,8 @@ export default function Contact() {
           <div className="div">
             <div className="ion">
               <a href="https://github.com/kinko7" target="blank">
-                <img
-                  height="35px"
+                <img 
+                  height="55px"
                   src="https://cx5v8.csb.app/iconos/github-modo-oscuro.svg"
                   alt="no"
                 />
@@ -92,7 +93,7 @@ export default function Contact() {
               <a href="https://www.linkedin.com/in/carlos-fullstackdeveloper" target="blank">
               
               <img
-                height="35px"
+                height="58px"
                 src="https://cx5v8.csb.app/iconos/linkedin.svg"
                 alt="no"
               />
@@ -101,6 +102,13 @@ export default function Contact() {
           </div>
         </form>
       </div>
+      </div>
+        <div className="ph">
+          <h3>Cel. 54-9 351314-7357</h3> 
+        </div>
+        <div className="phh">
+          <h3>CORDOBA -ARGENTINA</h3> 
+        </div>
     </>
   );
 }

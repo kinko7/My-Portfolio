@@ -1,177 +1,69 @@
-/* .news-cards a {
-padding: 8px 0;
- 
-text-transform: uppercase;
-display: inline-block;
+.containerr {
+   width: 1000px;
+   height: 120px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
 
 }
-.news-cards img {
-width: 100%;
-height: 260px;
-padding: 10px;
-border: 2px solid rgba(255, 255, 255, 0.411);
-transition: all 1s;
-}
-.news-cards img:hover {
- 
-transition: all 2s;
-transform: scale(1.2);
 
-}   
-.news-cards h5 {
+.containerr .card {
+   width: 450px;
+   
+   border-radius: 8px;
+   box-shadow: 0 2px 2px rgba(250, 250, 250, 0.834);
+   overflow: hidden;
+   margin: 20px;
+   transition: all 0.25s;
+
+}
+
+.containerr .card:hover {
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(251, 251, 251, 0.2);
+
+}
+
+.containerr .card img {
+   width: 290px;
+   height: 200px;
+}
+
+.containerr .card h6 {
+   font-family: 'Dosis', sans-serif;
+   color: white;
+   margin: 10px;
+   text-align: center;
+   font-weight: 520;
+   line-height: 20px;
+
+}
+
+.containerr .card h3 {
    font-family: 'Poppins', sans-serif;
-font-size: 20px;
-margin: 8px 0;
-color:rgba(248, 245, 245, 0.85)
-}  
-
-.news-cards {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 35px;
-padding:6%;
-margin-top: 5px;
-transition: all  1s;
-border: 2px solid rgb(208, 201, 186);
-background-color:rgba(2, 22, 22, 0.937)
- 
-} */
-
- 
- 
-
-.containerr{
-   width: 100%;
-   max-width: 1200px;
-   height:110px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin: auto;
+   line-height: 25px;
+   color: white;
+   font-weight: 520;
 
 }
 
-.containerr  .card{
-   width: 330px;
-   height: 490px;
- border-radius: 8px;
- box-shadow: 0 2px 2px rgba(250, 250, 250, 0.834);
- overflow: hidden;
- margin: 20px;
- transition: all 0.25s;
-
+.bt {
+   background: none;
+   border: none;
+   padding: 2px;
+   font-size: 20px;
+   color: rgba(246, 244, 238, 0.938);
+   margin: 5px;
 
 }
 
-
-.containerr  .card:hover{
- 
-transform: translateY(-15px);
-box-shadow: 0 12px 16px rgba(251, 251, 251, 0.2);
+.bt:hover {
+   cursor: pointer;
+   transition: all 2s;
+   transform: scale(1.4)
 
 }
- 
-   .containerr .card img{
- 
-     width: 100%;
-     height: 100%;
-     
-      
-      }
-      .containerr  .card h6{
-         font-family: 'Dosis', sans-serif;
-color:white;
- margin:10px;
-text-align: center;
-font-weight: 520;
-
-line-height:20px ;
- 
-
-         }
-         .containerr  .card h3{
-            font-family: 'Poppins', sans-serif;
-            line-height: 25px;
-            color:white;
-            font-weight: 520;
-                     }
-     
-   
-
-.bt{
-background: none;
-border:none;
-padding:2px;
-font-size: 35px;
-color:rgba(246, 244, 238, 0.938);
- 
-margin: 5px;
-
-
-}   
-
-.bt:hover{
-cursor: pointer;
-transition: all 2s;
-transform: scale(1.4);
-   }
-
-
-   
-
-
-/* 
-
- img.redimension{
-padding: 4%;
-width:80%;
-height: 120%;
-background: none;
-margin-bottom: -5px;
- 
-
-
-}      */
-
-/* img.redimension:hover{
-cursor: pointer;
-transition: all 2s;
-transform: scale(1.1);
-} */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
