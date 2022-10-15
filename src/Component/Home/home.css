@@ -62,7 +62,7 @@ hr {
 .nav-main ul li a {
     padding: 4px;
     margin: 5px;
-    color: rgb(167, 85, 85);
+    color:  rgb(250, 240, 208);
     font-size: 20px;
     font-family: 'Anton', sans-serif;
     margin-top: 20px;
@@ -70,7 +70,7 @@ hr {
 }
 
 .nav-main ul li a:hover {
-    color: rgb(250, 208, 208)
+    color:rgb(85, 167, 164)
 }
 
 .nav-main ul.nav-menu {
@@ -81,10 +81,10 @@ hr {
 
 .nav-brand {
     font-family: 'Anton', sans-serif;
-    color:rgb(255, 255, 255);
-    font-size:25px;
-    letter-spacing: 1px;
-    letter-spacing: 5px;
+    color: rgb(254, 238, 209);
+    font-size:35px;
+    letter-spacing: 8px;
+    
      
     }
 

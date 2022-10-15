@@ -29,10 +29,9 @@
 
     }
 
-
     .containerrr .cards:hover {
         transform: translateY(-15px);
-        box-shadow: 0 12px 16px rgba(109, 3, 3, 0.89);
+        box-shadow: 0 12px 16px rgba(239, 224, 146, 0.89);
 
     }
 
