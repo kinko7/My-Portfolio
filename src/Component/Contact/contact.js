@@ -57,7 +57,7 @@ export default function Contact() {
             value={sender_name}
             onChange={handleName}
             required
-            placeholder="Name"
+            placeholder="full name"
           />
           <input
             className="boxis"
@@ -103,9 +103,7 @@ export default function Contact() {
         </form>
       </div>
       </div>
-        <div className="ph">
-          <h3>Cel. 54-9 351314-7357</h3> 
-        </div>
+
         <div className="phh">
           <h3>CORDOBA -ARGENTINA</h3> 
         </div>

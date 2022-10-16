@@ -10,11 +10,10 @@
 
 .containerr .card {
    width: 450px;
-   
    border-radius: 8px;
    box-shadow: 0 2px 2px rgba(250, 250, 250, 0.834);
    overflow: hidden;
-   margin: 20px;
+   margin: 25px;
    transition: all 0.25s;
 
 }
@@ -33,7 +32,7 @@
 .containerr .card h6 {
    font-family: 'Dosis', sans-serif;
    color: white;
-   margin: 10px;
+   margin: 15px;
    text-align: center;
    font-weight: 520;
    line-height: 20px;
@@ -43,8 +42,9 @@
 .containerr .card h3 {
    font-family: 'Poppins', sans-serif;
    line-height: 25px;
-   color: white;
+   color: rgb(236, 235, 188);
    font-weight: 520;
+   padding: 15px;
 
 }
 
@@ -52,9 +52,9 @@
    background: none;
    border: none;
    padding: 2px;
-   font-size: 20px;
+   font-size: 29px;
    color: rgba(246, 244, 238, 0.938);
-   margin: 5px;
+   margin: 15px;
 
 }
 

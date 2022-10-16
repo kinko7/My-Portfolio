@@ -17,8 +17,89 @@
         font-family: 'Open Sans Condensed', sans-serif;
 
     }
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    .containerrr .cards {
+.containerrr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0 20px;
+}
+.cards-containerrr {
+    display: flex;
+    width: 600px;
+    height: auto;
+    background: rgb(100, 20, 38);
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(213, 205, 205, 0.454);
+    margin-bottom: 25px;
+    
+}
+
+.headerr{
+    border-right: 1px solid rgba(5, 40, 42, 0.486);
+}
+
+.descripcion{
+    background-color: rgb(255, 254, 235);
+    font-family: 'Jost', sans-serif;
+}
+
+.headerr, .descripcion{
+    padding: 10px;
+    
+}
+
+.headerr a{
+    position: relative;
+    display: block;
+   
+}
+
+.headerr img{
+    display: flex;
+    margin-top: 40px;
+    border-radius: 50%;;
+    box-shadow: 1px 1px 4px 2px rgba(153, 202, 168, 0.834);
+    margin:30px 40px;
+    transition: .2s;
+}
+
+.headerr a:hover img{
+    box-shadow: 1px 1px 4px 2px rgba(109, 67, 67, 0.834);
+}
+
+.headerr h5{
+    color: antiquewhite;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
+}
+
+.headerr h2{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
+      
+}
+
+.descripcion{
+    position: relative;
+    text-align: center;
+}
+
+.descripcion p{
+    margin:5px 5px
+
+}
+    /* .containerrr .cards {
         margin-top: 35px;
         width: 850px;
         height: 400px;
@@ -44,4 +125,4 @@
         font-family: 'Anton', sans-serif;
         color:rgb(255, 255, 255)
 
-    }
+    } */

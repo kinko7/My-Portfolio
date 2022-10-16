@@ -1,13 +1,16 @@
  
 .re {
     font-family: 'Poppins', sans-serif;
-    color: rgb(255, 255, 255);
-    margin-top: 40px;
+    color: rgb(245, 245, 216);
+    margin-top: 55px;
     margin-left: -255x;
     font-size: 30px;
 
 }
 
+.input{
+    color: wheat;
+}
 .form {
     display: flex;
     justify-content: center;
@@ -28,7 +31,7 @@
 }
 
 .boxis {
-    background-color: rgba(189, 82, 82, 0.747);
+    background-color:rgb(74, 214, 229);
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
@@ -74,7 +77,7 @@
 }
 
 .ph{
-    color: white;
+    color:rgb(249, 245, 221);
     letter-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 30px;
@@ -82,7 +85,8 @@
 }
 
 .phh{
-    color: white;
+    padding: 20px;
+    color: rgb(249, 245, 221);
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 30px;
      
