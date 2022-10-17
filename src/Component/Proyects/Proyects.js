@@ -29,8 +29,9 @@ export default function Proyects() {
                   <h3 key={i}>{e.name}</h3>
                   <img src={e.image}></img>
                   <br />
+                  <br />
                   <h4>{e.description}</h4>
-                  <h5>{e.tecnologies}</h5>
+                  <h4>Technologies :{e.tecnologies}</h4>
                   <div className="git">
                     <a href={e.tube} target="_blank">
                       <button className="bt">

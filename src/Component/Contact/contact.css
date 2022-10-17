@@ -1,42 +1,47 @@
+::placeholder { color: rgb(232, 232, 239); }
+
  
+
 .re {
     font-family: 'Poppins', sans-serif;
     color: rgb(245, 245, 216);
     margin-top: 55px;
-    margin-left: -255x;
     font-size: 30px;
 
 }
 
 .input{
     color: wheat;
+   
 }
 .form {
-    display: flex;
+    
     justify-content: center;
     border-radius: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 5px;
     
 }
 
 .bo {
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(93, 78, 78, 0.189);
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
     font-size: 25px;
-    color:rgb(55, 3, 3)
+    color:rgb(55, 3, 3);
+    margin-left: 320px;
 }
 
 .boxis {
-    background-color:rgb(74, 214, 229);
+    background-color:rgba(93, 78, 78, 0.189);
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
     font-size: 25px;
-    color:white
+    color:white;
+     
 
 }
 
@@ -51,13 +56,15 @@
     color: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 4px;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 2px;
+    margin-left: 150px;
 }
 
 .btn:hover {
-    transition: all 1s;
+    transition: 1s;
     cursor: pointer;
+    color:aqua
    
 }
 

@@ -10,11 +10,12 @@
 
 .containerr .card {
    width: 450px;
-   border-radius: 8px;
+   font-family: 'Jost', sans-serif;   border-radius: 8px;
    box-shadow: 0 2px 2px rgba(250, 250, 250, 0.834);
    overflow: hidden;
    margin: 25px;
    transition: all 0.25s;
+   color: rgb(238, 227, 206);
 
 }
 
@@ -25,26 +26,34 @@
 }
 
 .containerr .card img {
-   width: 290px;
-   height: 200px;
+   width: 390px;
+   height: 250px;
 }
 
 .containerr .card h6 {
-   font-family: 'Dosis', sans-serif;
-   color: white;
-   margin: 15px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: rgb(222, 225, 225);
+   margin: 20px;
    text-align: center;
    font-weight: 520;
    line-height: 20px;
+   letter-spacing: 1px;
 
 }
 
 .containerr .card h3 {
-   font-family: 'Poppins', sans-serif;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    line-height: 25px;
    color: rgb(236, 235, 188);
    font-weight: 520;
+   letter-spacing: 1px;
    padding: 15px;
+
+}
+
+.containerr .card h4 {
+    
+   padding: 12px;
 
 }
 
@@ -53,7 +62,7 @@
    border: none;
    padding: 2px;
    font-size: 29px;
-   color: rgba(246, 244, 238, 0.938);
+   color: rgba(246, 238, 238, 0.938);
    margin: 15px;
 
 }

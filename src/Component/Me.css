@@ -27,19 +27,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 120vh;
     background-color: #000000;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 0 20px;
+    margin-top: -35px;
 }
+
 .cards-containerrr {
     display: flex;
     width: 600px;
     height: auto;
-    background: rgb(100, 20, 38);
+    background: rgb(20, 99, 100);
     border-radius: 2px;
-    box-shadow: 1px 1px 4px 2px rgba(213, 205, 205, 0.454);
-    margin-bottom: 25px;
+    box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0.913);
+    margin-bottom:40px;
     
 }
 
@@ -52,6 +54,16 @@
     font-family: 'Jost', sans-serif;
 }
 
+ 
+
+.descripcion .social a{
+    display: inline-block;
+    height: 10%;
+    width: 10%;
+    font-size: 25px;
+    
+ }
+ 
 .headerr, .descripcion{
     padding: 10px;
     
@@ -67,7 +79,7 @@
     display: flex;
     margin-top: 40px;
     border-radius: 50%;;
-    box-shadow: 1px 1px 4px 2px rgba(153, 202, 168, 0.834);
+    box-shadow: 1px 1px 4px 2px rgba(72, 73, 72, 0.834);
     margin:30px 40px;
     transition: .2s;
 }

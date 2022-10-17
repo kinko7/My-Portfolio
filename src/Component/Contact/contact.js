@@ -42,7 +42,7 @@ export default function Contact() {
       <div>
         <Recontact />
       </div>
-      <div className="container">
+      <div className="containe">
       <div>
         <nav className="re">
           <strong className="re">CONTACT</strong>

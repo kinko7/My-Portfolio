@@ -1,8 +1,8 @@
 import React from "react";
 import Recontact from "./Recontact"
 import me from "../../src/Component/assets/me.jpg"
-
 import "./Me.css";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 export default function Me() {
   return (
@@ -25,6 +25,13 @@ I seek to collaborate and be part of a company that fully identifies with its vi
 I am passionate about what I do.
 I am looking for long-term job stability.
 My goal is to learn from a great team by participating and collaborating in innovative, original, creative and personalized projects, adding value and motivation from my role.</p>
+<div className="social">
+  <a target="_blank"  href="https://github.com/kinko7"><AiFillGithub  /></a>
+  <a target="_blank" href="https://www.linkedin.com/in/carlos-fullstackdeveloper/" > <AiFillLinkedin/></a>
+ 
+  
+</div>
+
           </div>
         </div>
       </div>
