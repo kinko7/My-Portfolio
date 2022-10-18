@@ -27,7 +27,7 @@ export default function Proyects() {
                   <br />
                   <br />
                   <h4>{e.description}</h4>
-                  <h4>Technologies :{e.tecnologies}</h4>
+                  <h4>Technologies: {e.tecnologies}</h4>
                   <div className="git">
                     <a href={e.tube} target="_blank">
                       <button className="bt">GO</button>
