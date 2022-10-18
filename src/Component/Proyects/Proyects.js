@@ -18,12 +18,8 @@ export default function Proyects() {
         <nav className="nav-1"></nav>
 
         <div className="containerr">
-
-
-
           {proyects.length > 0 &&
             proyects.map((e, i) => (
-
               <div className="card">
                 <div>
                   <h3 key={i}>{e.name}</h3>
@@ -34,9 +30,7 @@ export default function Proyects() {
                   <h4>Technologies :{e.tecnologies}</h4>
                   <div className="git">
                     <a href={e.tube} target="_blank">
-                      <button className="bt">
-                        GO
-                      </button>
+                      <button className="bt">GO</button>
                     </a>
                     <a href={e.link} target="_blank">
                       <button className="bt">
@@ -46,16 +40,11 @@ export default function Proyects() {
                   </div>
                 </div>
 
-
                 <h6>@Copyright 2022</h6>
               </div>
             ))}
-
-
         </div>
       </div>
-
-
     </>
   );
 }

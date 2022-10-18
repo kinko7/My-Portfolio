@@ -1,23 +1,18 @@
 import React from "react";
 import "./Tech.css";
-import Gral from "../assets/77.jpg"
-import Recontact from "../Recontact" 
-
+import Gral from "../assets/77.jpg";
+import Recontact from "../Recontact";
 
 export default function Tech() {
-
   return (
     <div>
-      <Recontact/>
+      <Recontact />
       <div>
-          <nav className="nav-1">
-             
-          </nav>
-        </div>
-        <div className= "techs">
-          <img src={Gral} alt="no"/>
-        </div>
-        </div>
-         
+        <nav className="nav-1"></nav>
+      </div>
+      <div className="techs">
+        <img src={Gral} alt="no" />
+      </div>
+    </div>
   );
 }

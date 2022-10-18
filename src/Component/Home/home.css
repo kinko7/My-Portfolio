@@ -2,13 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  
 }
 
-
-a {
-    color: #3a3a3a;
-    text-decoration: none;
-}
 
 ul {
     list-style: none;
@@ -69,6 +65,10 @@ hr {
 
 }
 
+.down{
+    margin-top:20px;
+}
+
 .nav-main ul li a:hover {
     color:rgb(85, 167, 164)
 }
@@ -79,13 +79,19 @@ hr {
 
 }
 
-
+.nav-brand {
+    font-family: 'Anton', sans-serif;
+    color: #13c3e6df;
+    font-size:25px;
+    font-weight: 900px;
+     
+    }
 
 .showcase {
     width: 100%;
     /* //imagen foto */
     height: 450px;
-    background: url("../assets/back.png") no-repeat center center/cover;
+    background: url("../assets/f2.jpg") no-repeat center center/cover;
     display: flex;
     transition: 2s;
     margin-bottom: 20px;

@@ -15,7 +15,7 @@
    overflow: hidden;
    margin: 25px;
    transition: all 0.25s;
-   color: rgb(238, 227, 206);
+   color: rgb(243, 238, 230);
 
 }
 
@@ -37,22 +37,22 @@
    text-align: center;
    font-weight: 520;
    line-height: 20px;
-   letter-spacing: 1px;
+   letter-spacing: 2px;
 
 }
 
 .containerr .card h3 {
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    line-height: 25px;
-   color: rgb(236, 235, 188);
+   color: rgb(246, 245, 225);
    font-weight: 520;
-   letter-spacing: 1px;
+   letter-spacing: 2px;
    padding: 15px;
 
 }
 
 .containerr .card h4 {
-    
+   letter-spacing: 1px;
    padding: 12px;
 
 }

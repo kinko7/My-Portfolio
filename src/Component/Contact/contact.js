@@ -43,70 +43,72 @@ export default function Contact() {
         <Recontact />
       </div>
       <div className="containe">
-      <div>
-        <nav className="re">
-          <strong className="re">CONTACT</strong>
-        </nav>
-      </div>
-      <div className="form">
-        <form onSubmit={sendMail}>
-          <input
-            className="boxis"
-            type="text"
-            name="sender_name"
-            value={sender_name}
-            onChange={handleName}
-            required
-            placeholder="full name"
-          />
-          <input
-            className="boxis"
-            type="email"
-            name="sender_mail"
-            value={sender_email}
-            onChange={handleEmail}
-            required
-            placeholder="e-mail"
-          />
-          <textarea
-            className="bo"
-            name="message"
-            value={message}
-            onChange={handleMessage}
-            required
-            placeholder="message"
-          />
-          <button className="btn" type="submit">
-            SEND
-          </button>
-          <div className="div">
-            <div className="ion">
-              <a href="https://github.com/kinko7" target="blank">
-                <img 
-                  height="55px"
-                  src="https://cx5v8.csb.app/iconos/github-modo-oscuro.svg"
-                  alt="no"
-                />
-              </a>
+        <div>
+          <nav className="re">
+            <strong className="re">CONTACT</strong>
+          </nav>
+        </div>
+        <div className="form">
+          <form onSubmit={sendMail}>
+            <input
+              className="boxis"
+              type="text"
+              name="sender_name"
+              value={sender_name}
+              onChange={handleName}
+              required
+              placeholder="full name"
+            />
+            <input
+              className="boxis"
+              type="email"
+              name="sender_mail"
+              value={sender_email}
+              onChange={handleEmail}
+              required
+              placeholder="e-mail"
+            />
+            <textarea
+              className="bo"
+              name="message"
+              value={message}
+              onChange={handleMessage}
+              required
+              placeholder="message"
+            />
+            <button className="btn" type="submit">
+              SEND
+            </button>
+            <div className="div">
+              <div className="ion">
+                <a href="https://github.com/kinko7" target="blank">
+                  <img
+                    height="55px"
+                    src="https://cx5v8.csb.app/iconos/github-modo-oscuro.svg"
+                    alt="no"
+                  />
+                </a>
+              </div>
+              <div className="ion">
+                <a
+                  href="https://www.linkedin.com/in/carlos-fullstackdeveloper"
+                  target="blank"
+                >
+                  <img
+                    height="58px"
+                    src="https://cx5v8.csb.app/iconos/linkedin.svg"
+                    alt="no"
+                  />
+                </a>
+              </div>
             </div>
-            <div className="ion">
-              <a href="https://www.linkedin.com/in/carlos-fullstackdeveloper" target="blank">
-              
-              <img
-                height="58px"
-                src="https://cx5v8.csb.app/iconos/linkedin.svg"
-                alt="no"
-              />
-              </a>
-            </div>
-          </div>
-        </form>
-      </div>
+          </form>
+        </div>
       </div>
 
-        <div className="phh">
-          <h3>CORDOBA -ARGENTINA</h3> 
-        </div>
+      <div className="phh">
+        <h3>CORDOBA -ARGENTINA</h3>
+      </div>
     </>
   );
 }
