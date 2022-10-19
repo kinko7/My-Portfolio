@@ -14,7 +14,7 @@ export default function Me() {
           <div className="headerr">
             <img src={me} height="120px" width="120px" alt=""></img>
 
-            <h2>Carlos Marleta</h2>
+            <h2>CARLOS MARLETTA</h2>
             <h5>Desarrollador Web Full Stack</h5>
           </div>
           <div className="descripcion">

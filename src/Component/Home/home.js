@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className="container">
         <nav className="nav-main">
-          <span className="nav-brand">Carlos Marleta</span>
+          <span className="nav-brand">CARLOS MARLETTA</span>
           <ul className="nav-menu">
             <Recontact />
           </ul>

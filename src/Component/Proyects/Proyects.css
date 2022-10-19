@@ -51,9 +51,10 @@
 
 }
 
-.containerr .card h4 {
+.containerr .card p {
    letter-spacing: 1px;
    padding: 12px;
+   color:gainsboro
 
 }
 

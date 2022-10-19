@@ -26,8 +26,8 @@ export default function Proyects() {
                   <img src={e.image}></img>
                   <br />
                   <br />
-                  <h4>{e.description}</h4>
-                  <h4>Technologies: {e.tecnologies}</h4>
+                  <p>{e.description}</p>
+                  <p>Technologies: {e.tecnologies}</p>
                   <div className="git">
                     <a href={e.tube} target="_blank">
                       <button className="bt">GO</button>

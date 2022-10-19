@@ -76,14 +76,16 @@ hr {
 .nav-main ul.nav-menu {
     flex: 1;
     margin-left: 20px;
+    
 
 }
 
 .nav-brand {
-    font-family: 'Anton', sans-serif;
-    color: #13c3e6df;
-    font-size:25px;
-    font-weight: 900px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:rgb(253, 242, 201);
+font-size:25px; 
+letter-spacing:2px;
+ 
      
     }
 
