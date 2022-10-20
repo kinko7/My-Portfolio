@@ -74,17 +74,17 @@ hr {
 .showcase {
 
     /* //imagen foto */
-    width: 100%;
+   /* width: 100%;   */
     /* //imagen foto */
-    height: 400px;
-    background: url("../assets/f3.jpg") no-repeat center center/cover;
-    display: flex;
-    transition: 2s;
-    margin-top: -9px;
+    height: 500px;  
+    background: url("../assets/f4.jpg") no-repeat center center/cover;
+ 
+ transition: 2s;  
+    /* margin-top: -9px;
     margin-bottom: 25px;
     background-color: rgb(237, 245, 252);
     background-blend-mode: multiply;
-    margin-right: 2px;
+    margin-right: 2px; */  
 
 
 }
