@@ -1,8 +1,8 @@
 * {
-    box-sizing: border-box;
+
     margin: 0;
     padding: 0;
-  
+    list-style-type:none
 }
 
 
@@ -10,13 +10,12 @@ ul {
     list-style: none;
 
 }
-  
+
 .container {
-    width: 94%;
+    width: 98%;
     margin: auto;
     color: black
-
-}  
+}
 
 /* Navigation */
 .nav-main {
@@ -24,75 +23,65 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8px;
-    padding: 20px 0;
+    /* height: 5px; */
+    padding: 20px;
     margin: 5px;
     margin-top: 15px;
-    color: black
+
 
 }
 
 hr {
     margin: 3px 0
-
 }
 
 /* Navbar Left */
 .nav-main ul {
     display: flex;
-    padding: 5px;
     margin: -20px;
     justify-content: end;
     font-family: 'Anton', sans-serif;
-    
+
 }
 
 
 .nav-main ul li {
-    
-    font-size: 20px;
-    margin:5px
-
+ 
+    margin: 5px
 }
 
 .nav-main ul li a {
-    
+    text-decoration: none;
     margin: 5px;
-    color:  rgb(250, 240, 208);
-    font-size: 20px;
+    color: rgb(250, 240, 208);
+    font-size: 30px;
     font-family: 'Anton', sans-serif;
-    margin-top: 20px;
+    
+
+
 
 }
 
-.down{
-    margin-top:20px;
-}
 
 .nav-main ul li a:hover {
-    color:rgb(85, 167, 164)
+    color: rgb(85, 167, 164)
 }
 
 .nav-main ul.nav-menu {
     flex: 1;
     margin-left: 20px;
-    
+   
+
 
 }
 
-.nav-brand {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color:rgb(253, 242, 201);
-font-size:25px; 
-letter-spacing:2px;
- 
-     
-    }
 
 .showcase {
+
+    /* //imagen foto */
     width: 100%;
     /* //imagen foto */
-    height: 450px;
+    height: 550px;
     background: url("../assets/f2.jpg") no-repeat center center/cover;
     display: flex;
     transition: 2s;
@@ -101,33 +90,12 @@ letter-spacing:2px;
     background-blend-mode: multiply;
     margin-right: 5px;
 
+
 }
 
 .showcase:hover {
-    cursor: pointer;
+
     transition: all 2s;
     transform: rotateY(250deg);
 
-}
-
-.vam {
-    font-size: 25px;
-    padding: 2px;
-    margin: 255px;
-    margin-top: 90px;
-    margin-left: 10px;
-    color: rgb(75, 75, 83);
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 7px;
-
-}
-
-.vams {
-    font-size: 13px;
-    margin-top: 300px;
-    margin-left: 30px;
-    color: rgb(255, 255, 255);
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 7px;
-    
 }
