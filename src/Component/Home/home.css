@@ -2,13 +2,13 @@
 
     margin: 0;
     padding: 0;
-    list-style-type:none
+    list-style-type: none
 }
 
 
 ul {
     list-style: none;
- 
+
 
 }
 
@@ -53,9 +53,6 @@ hr {
     font-size: 25px;
     font-family: 'Anton', sans-serif;
     padding: 5px;
-    
-
-
 
 }
 
@@ -67,31 +64,14 @@ hr {
 .nav-main ul.nav-menu {
     flex: 1;
     margin-left: 20px;
- 
+
 }
 
 
 .showcase {
 
-    /* //imagen foto */
-   /* width: 100%;   */
-    /* //imagen foto */
-    height: 500px;  
+    height: 500px;
     background: url("../assets/f4.jpg") no-repeat center center/cover;
- 
- transition: 2s;  
-    /* margin-top: -9px;
-    margin-bottom: 25px;
-    background-color: rgb(237, 245, 252);
-    background-blend-mode: multiply;
-    margin-right: 2px; */  
-
-
-}
-
-.showcase:hover {
-
-    transition: all 2s;
-    transform: rotateY(250deg);
+    transition: 2s;
 
 }
