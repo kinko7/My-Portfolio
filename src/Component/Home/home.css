@@ -8,6 +8,7 @@
 
 ul {
     list-style: none;
+ 
 
 }
 
@@ -21,18 +22,18 @@ ul {
 .nav-main {
     font-size: 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    /* height: 5px; */
+    height: 5px;
     padding: 20px;
-    margin: 5px;
+    margin: 10px;
     margin-top: 15px;
 
 
 }
 
 hr {
-    margin: 3px 0
+    margin: 4px 0
 }
 
 /* Navbar Left */
@@ -49,8 +50,9 @@ hr {
     text-decoration: none;
     margin: 5px;
     color: rgb(250, 240, 208);
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Anton', sans-serif;
+    padding: 5px;
     
 
 
@@ -65,9 +67,7 @@ hr {
 .nav-main ul.nav-menu {
     flex: 1;
     margin-left: 20px;
-   
-
-
+ 
 }
 
 

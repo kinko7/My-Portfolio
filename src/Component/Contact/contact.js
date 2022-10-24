@@ -45,7 +45,7 @@ export default function Contact() {
       <div className="containe">
         <div>
           <nav className="re">
-            <strong className="re">CONTACT</strong>
+            <strong className="re"></strong>
           </nav>
         </div>
         <div className="form">
@@ -83,7 +83,7 @@ export default function Contact() {
               <div className="ion">
                 <a href="https://github.com/kinko7" target="blank">
                   <img
-                    height="55px"
+                    height="30px"
                     src="https://cx5v8.csb.app/iconos/github-modo-oscuro.svg"
                     alt="no"
                   />
@@ -95,7 +95,7 @@ export default function Contact() {
                   target="blank"
                 >
                   <img
-                    height="58px"
+                    height="30px"
                     src="https://cx5v8.csb.app/iconos/linkedin.svg"
                     alt="no"
                   />
@@ -107,7 +107,7 @@ export default function Contact() {
       </div>
 
       <div className="phh">
-        <h3>CORDOBA -ARGENTINA</h3>
+        <h3>CORDOBA - ARGENTINA</h3>
       </div>
     </>
   );
