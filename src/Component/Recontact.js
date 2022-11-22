@@ -1,5 +1,5 @@
 import React from "react";
-import Ar from "./Contact/CV.pdf";
+import Ar from "./Contact/Carlos.Marleta.pdf";
 
 export default function Recontact() {
   return (
@@ -14,7 +14,7 @@ export default function Recontact() {
               <a href="/proyects">PROJECTS</a>
             </li>
             <li>
-              <a href="/tech">TECH SKILLS</a>
+              <a href="/tech">TECH</a>
             </li>
             <li>
               <a href="/me">ABOUT</a>
@@ -25,7 +25,7 @@ export default function Recontact() {
 
             <li>
               <a download href={Ar}>
-                DOWNLOAD CV
+              CV
               </a>
             </li>
           </ul>
