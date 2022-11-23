@@ -8,7 +8,7 @@ export default function Proyects() {
   const [proyects, setProyects] = useState({});
   useEffect(() => {
     axios
-      .get("https://loadingdb.herokuapp.com/proyects")
+      .get("https://beta-films.herokuapp.com/proyects")
       .then((res) => setProyects(res.data));
   }, [setProyects]);
   return (
