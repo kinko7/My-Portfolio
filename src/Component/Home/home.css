@@ -68,18 +68,19 @@ hr {
 }
 
 
-/* .showcase {
+.showcase {
 
-    height: 500px;
-    background: url("../assets/f4.jpg") no-repeat center center/cover;
+    height: 400px;
+    background: url("../assets/23.jpg") no-repeat center center/cover;
     transition: 2s;
+    margin:20px
 
-} */
+}
 
 .maquina-escribir {
     font-size: 50px;
-   margin-top: 90px;
-    margin-left: 60px;
+   margin-top: 27px;
+    margin-left: 10px;
     font-family: monospace;
     letter-spacing: 1px;
     white-space: nowrap; /* los espacios en blanco no rompen la línea */        
@@ -103,7 +104,7 @@ hr {
   .maquina-escribira {
     font-size: xx-large;
    
-    margin-left: 335px;
+    margin-left:268px ;
     font-family: monospace;
     letter-spacing: 1px;
     white-space: nowrap; /* los espacios en blanco no rompen la línea */        

@@ -17,8 +17,8 @@ export default function Home() {
           </ul>
         </nav>
         <hr></hr>
-        <p class="maquina-escribir">Hi, my name is CARLOS MARLETA <span class="cursor"></span></p>
-        <p class="maquina-escribira">I´m Sotware Developer <span class="cursora"></span></p>
+        <p class="maquina-escribir"> CARLOS MARLETA <span class="cursor"></span></p>
+        <p class="maquina-escribira">Sotware Developer <span class="cursora"></span></p>
         <header className="showcase"></header>
       </div>
     </>

@@ -16,9 +16,9 @@ export default function Recontact() {
             <li>
               <a href="/tech">TECH</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/me">ABOUT</a>
-            </li>
+            </li> */}
             <li>
               <a href="/contact">CONTACT</a>
             </li>
