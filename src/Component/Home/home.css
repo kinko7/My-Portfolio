@@ -83,8 +83,8 @@ hr {
     margin-left: 12px;
     font-family: monospace;
     letter-spacing: 1px;
-    white-space: nowrap; /* los espacios en blanco no rompen la línea */        
-    width: 35ch; /* el ancho será el número de caracteres que tiene nuestra línea */
+    white-space: nowrap;      
+    width: 35ch; 
     animation: escribiendo 2s steps(35);          
     overflow: hidden;
     color:rgb(5, 107, 112);
