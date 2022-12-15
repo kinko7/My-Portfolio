@@ -1,6 +1,8 @@
 import React from "react";
 import Recontact from "./Recontact";
-import me from "../../src/Component/assets/me.jpg";
+// import me from "../../src/Component/assets/me.jpg";
+import me from "../../src/Component/assets/1.jpeg";
+
 import "./Me.css";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 

@@ -11,23 +11,24 @@ export default function Recontact() {
               <a href="/">HOME</a>
             </li>
             <li>
+              <a href="/me">ABOUT</a>
+            </li>
+            <li>
               <a href="/proyects">PROJECTS</a>
             </li>
             <li>
               <a href="/tech">TECH</a>
             </li>
-            {/* <li>
-              <a href="/me">ABOUT</a>
-            </li> */}
-            <li>
-              <a href="/contact">CONTACT</a>
-            </li>
-
             <li>
               <a download href={Ar}>
               CV
               </a>
             </li>
+          
+            <li>
+              <a href="/contact">CONTACT</a>
+            </li>
+
           </ul>
         </nav>
       </div>

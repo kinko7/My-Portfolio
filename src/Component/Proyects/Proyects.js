@@ -3,14 +3,16 @@ import { AiFillYoutube, AiFillGithub } from "react-icons/ai";
 import axios from "axios";
 import "./Proyects.css";
 import Recontact from "../Recontact";
+import { projects } from "../projects.js";
+
 
 export default function Proyects() {
-  const [proyects, setProyects] = useState({});
-  useEffect(() => {
-    axios
-      .get("https://beta-films.herokuapp.com/proyects")
-      .then((res) => setProyects(res.data));
-  }, [setProyects]);
+  // const [proyects, setProyects] = useState({});
+  // useEffect(() => {
+  //   axios
+  //     .get("https://beta-films.herokuapp.com/proyects")
+  //     .then((res) => setProyects(res.data));
+  // }, [setProyects]);
   return (
     <>
       <Recontact />
@@ -18,8 +20,8 @@ export default function Proyects() {
         <nav className="nav-1"></nav>
 
         <div className="containerr">
-          {proyects.length > 0 &&
-            proyects.map((e, i) => (
+          {projects?.length > 0 &&
+            projects.map((e, i) => (
               <div className="card">
                 <div>
                   <h3 key={i}>{e.name}</h3>
