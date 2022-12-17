@@ -7,7 +7,7 @@ export const projects = [
     , "tecnologies": "JAVASCRIPT - REACT - REDUX - CSS - NODE - POSTGRES - SEQUELIZE"
     , "image": "https://i.ibb.co/P6f3Vy4/2022-10-15-14-10-58-Window.png"
     , "link": "https://github.com/kinko7/App-Food-Recipes/tree/master"
-    , "tube": "https://github.com/kinko7/App-Food-Recipes/tree/master"
+    , "tube": "https://deplopif.vercel.app/"
 
       },
 
