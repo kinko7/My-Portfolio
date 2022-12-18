@@ -46,7 +46,7 @@ export const projects = [
     "name": "PORTFOLIO"
     , "description": "Professional Resume"
     , "tecnologies": "JAVASCRIPT - REACT - NODE"
-    , "image": "https://i.ibb.co/hWSR5kc/p1.png"
+    , "image": "https://i.ibb.co/bzFtxLD/2022-12-18-08-49-34-Mail.png"
     , "link": "https://github.com/kinko7/My-Portfolio"
     , "tube": "https://my-portfolio-tti5.vercel.app/"
   },
