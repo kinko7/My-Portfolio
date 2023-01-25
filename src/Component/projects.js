@@ -26,7 +26,7 @@ export const projects = [
     "name": "MIAMI LUXURY REAL ESTATE"
     , "description": "One page Marketing Services"
     , "tecnologies": "HTML - JAVASCRIPT - BOOTSTRAP"
-    , "image": "https://i.ibb.co/mFF17SK/2022-10-14-19-36-57-Luxury-Prescence.png"
+    , "image": "https://i.ibb.co/hmM6ZLC/2022-10-14-19-38-32-Luxury-Prescence.png"
     , "link": "https://github.com/kinko7/kinko7.github.io"
     , "tube": "https://kinko7.github.io/Luxury-Real-Estate"
 
