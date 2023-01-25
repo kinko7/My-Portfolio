@@ -39,23 +39,22 @@ export const projects = [
     , "tecnologies": "JAVASCRIPT - REACT - REDUX - NODE - POSTGRES - SEQUELIZE"
     , "image": "https://i.ibb.co/RjTv8jn/how-to-draw-ash-5e4c727e62f740-83275674-3150-3-3.jpg"
     , "link": "https://github.com/kinko7/BackEnd-Pokemon-NicaSource"
-      }
+      },
 
+      {
+        "name": "BOOK-S E-COMMERCE (Working on)"
+        , "description": "Rest-Api CRUD"
+        , "tecnologies": "JAVASCRIPT - REACT - REDUX - NODE - POSTGRES - SEQUELIZE"
+        , "image": "https://i.ibb.co/xJj9Mfg/2.png "
+        , "link": "https://github.com/kinko7/Backend-EngineerAidsForAids"
+         , "tube":"https://github.com/kinko7/Books-Ecommerce" }  
   
   , {
     "name": "PORTFOLIO"
-    , "description": "Professional Resume"
     , "tecnologies": "JAVASCRIPT - REACT - NODE"
-    , "image": "https://i.ibb.co/bzFtxLD/2022-12-18-08-49-34-Mail.png"
+    , "image": "https://i.ibb.co/LPCfd4T/23.jpg"
     , "link": "https://github.com/kinko7/My-Portfolio"
     , "tube": "https://my-portfolio-tti5.vercel.app/"
-  },
-  {
-    "name": "BOOK-S E-COMMERCE (Working on)"
-    , "description": "Rest-Api CRUD"
-    , "tecnologies": "JAVASCRIPT - REACT - REDUX - NODE - POSTGRES - SEQUELIZE"
-    , "image": "https://i.ibb.co/xJj9Mfg/2.png "
-    , "link": "https://github.com/kinko7/Backend-EngineerAidsForAids"
-     , "tube":"https://github.com/kinko7/Books-Ecommerce" }  
+  }
 
     ]
