@@ -20,8 +20,8 @@ export default function Recontact() {
               <a href="/tech">TECH</a>
             </li>
             <li>
-              <a download href={Ar}>
-              CV
+              <a download href={Ar}> 
+              DOWNLOAD CV
               </a>
             </li>
           

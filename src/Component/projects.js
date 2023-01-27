@@ -5,7 +5,7 @@ export const projects = [
     "name": "FOOD APP S.P.A"
     , "description": "Project based on an external API that contains information about cooking recipes. It was designed as a SPA that uses the data from the API to then filter the information as required and store it in a database.  Pagination of 9 recipes per page and filtered by Alphabetical order. Filtered according to higher or lower healthy diet score. By selecting a recipe you get step-by-step details and ingredients. Search bar by name or ingredient. Form that allows the creation of a new recipe by applying the required parameters and importing an image of your choice through a URL."
     , "tecnologies": "JAVASCRIPT - REACT - REDUX - CSS - NODE - POSTGRES - SEQUELIZE"
-    , "image": "https://i.ibb.co/P6f3Vy4/2022-10-15-14-10-58-Window.png"
+    , "image": "https://i.ibb.co/ZXkbFWk/2023-01-26-20-25-51.png"
     , "link": "https://github.com/kinko7/App-Food-Recipes/tree/master"
     , "tube": "https://deplopif.vercel.app/"
 

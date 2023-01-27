@@ -32,7 +32,7 @@ export default function Proyects() {
                   <p>Technologies: {e.tecnologies}</p>
                   <div className="git">
                     <a href={e.tube} target="_blank">
-                      <button className="bt">GO</button>
+                      <button className="bt">Deploy</button>
                     </a>
                     <a href={e.link} target="_blank">
                       <button className="bt">
